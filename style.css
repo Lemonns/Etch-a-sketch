@@ -28,10 +28,7 @@ h1 {
     width: 500px;
     height: 500px;
     display: grid;
-    grid-template-columns: repeat(32, 1fr); 
-    grid-template-rows: repeat(32, 1fr);
     border: 0.5px solid rgba(0, 0, 0, 0.041);
-    
 }
 
 .grid-item {
@@ -42,3 +39,26 @@ h1 {
 .div-color-class {
     background-color: black;
 }
+
+.btn-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px
+}
+
+button:hover {
+    background-color: #dad6d6;
+}
+
+.clear-btn, .size-btn, .rainbow-btn {
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.14);
+    border:1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    transition: 0.5s all;
+}
+
+
